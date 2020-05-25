@@ -30,7 +30,7 @@ Simple user settings facade for Laravel 5. Settings are stored as JSON in a sing
 
 
 ## Configuration
-Pop open `config/laravel-user-settings.php` to adjust package configuration. If this file doesn't exist, run `php artisan vendor:publish --provider="Grimthorr\LaravelUserSettings\ServiceProvider" --tag="config"` to create the default configuration file.
+Pop open `config/laravel-user-settings.php` to adjust package configuration. If this file doesn't exist, run `php artisan vendor:publish --provider="Longestdrive\LaravelUserSettings\ServiceProvider" --tag="config"` to create the default configuration file.
 
 ```php
 return array(
