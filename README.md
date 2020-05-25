@@ -1,17 +1,17 @@
 # laravel-user-settings
 Simple user settings facade for Laravel 5. Settings are stored as JSON in a single database column, so you can easily add it to an existing table (`users` for example).
 
-**Still using Laravel 4?** Make sure to use [version 1.x](https://github.com/Grimthorr/laravel-user-settings/tree/laravel4) instead (`composer require grimthorr/laravel-user-settings ~1.0`).
+**This is a fork from ** [Grimthorr/Laravel-user-settings](https://github.com/Grimthorr/laravel-user-settings). Forked to enable Laravel 6 compatibility
 
 
 ## Installation
-1. Run `composer require grimthorr/laravel-user-settings` to include this in your project.
-2. Add `'Grimthorr\LaravelUserSettings\ServiceProvider'` to `providers` in `config/app.php`.
+1. Run `composer require longestdrive/laravel-user-settings` to include this in your project.
+2. Add [optional - package should be detected] `'longestdrive\LaravelUserSettings\ServiceProvider'` to `providers` in `config/app.php`.
 
   ```php
   'providers' => array(
     // ...
-    'Grimthorr\LaravelUserSettings\ServiceProvider',
+    'Longestdrive\LaravelUserSettings\ServiceProvider',
   ),
   ```
 
@@ -20,11 +20,11 @@ Simple user settings facade for Laravel 5. Settings are stored as JSON in a sing
   ```php
   'aliases' => array(
     // ...
-    'Setting' => 'Grimthorr\LaravelUserSettings\Facade',
+    'Setting' => 'Longestdrive\LaravelUserSettings\Facade',
   ),
   ```
 
-4. Run `php artisan vendor:publish --provider="Grimthorr\LaravelUserSettings\ServiceProvider" --tag="config"` to publish the config file.
+4. Run `php artisan vendor:publish --provider="Longestdrive\LaravelUserSettings\ServiceProvider" --tag="config"` to publish the config file.
 5. Modify the published configuration file located at `config/laravel-user-settings.php` to your liking.
 6. Create a varchar (string) column in a table on your database to match the config file in step 5. Alternatively, use the Laravel migration included in this package to automatically create a `settings` column in the `users` table: `php artisan vendor:publish --provider="Grimthorr\LaravelUserSettings\ServiceProvider" --tag="migrations" && php artisan migrate`.
 
@@ -151,4 +151,4 @@ Feel free to create a fork and submit a pull request if you would like to contri
 Raise an issue on GitHub if you notice something broken.
 
 #### Credits
-Based loosely on https://github.com/anlutro/laravel-settings.
+Entirely based on https://github.com/Grimthorr/Laravel-user-settings - I only updated to L6

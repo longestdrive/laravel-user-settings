@@ -1,7 +1,9 @@
 <?php
 
-namespace Grimthorr\LaravelUserSettings;
+namespace Longestdrive\LaravelUserSettings;
 
+
+use Illuminate\Support\Arr;
 
 class Setting {
 
@@ -102,7 +104,7 @@ class Setting {
         $constraint_value = $this->getConstraintValue($constraint_value);
         $this->check($constraint_value);
 
-        return array_get($this->settings[$constraint_value], $key, $default);
+        return Arr::get($this->settings[$constraint_value], $key, $default);
     }
 
     /**
@@ -122,10 +124,10 @@ class Setting {
 
         if (is_array($key)) {
             foreach ($key as $k => $v) {
-                array_set($this->settings[$constraint_value], $k, $v);
+                Arr::set($this->settings[$constraint_value], $k, $v);
             }
         } else {
-            array_set($this->settings[$constraint_value], $key, $value);
+            Arr::set($this->settings[$constraint_value], $key, $value);
         }
     }
 
