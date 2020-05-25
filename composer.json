@@ -1,28 +1,39 @@
 {
     "name": "grimthorr/laravel-user-settings",
-    "description": "Simple user settings facade for Laravel 5.",
-    "homepage": "https://github.com/Grimthorr/laravel-user-settings",
+    "description": "Simple user settings facade for Laravel 6. Forked from Grimthorr/laravel-user-settings",
+    "homepage": "https://github.com/longestdrive/laravel-user-settings",
     "license": "MIT",
     "authors": [
         {
-            "name": "Grimthorr",
-            "email": "phil@hughesbox.co.uk",
-            "homepage": "http://hughesbox.co.uk"
+            "name": "Longestdrive",
+            "email": "ray@raycraneweb.co.uk",
+            "homepage": "http://raycraneweb.co.uk"
         }
     ],
     "require": {
-        "php": ">=5.4.0",
-        "illuminate/support": "5.*",
-        "illuminate/config": "5.*",
-        "illuminate/database": "5.*"
+        "php": ">=7.2.0",
+        "ext-json": "*",
+        "illuminate/support": "6.*",
+        "illuminate/config": "6.*",
+        "illuminate/database": "6.*"
     },
     "autoload": {
         "psr-4": {
-            "Grimthorr\\LaravelUserSettings\\": "src/"
+            "Longestdrive\\LaravelUserSettings\\": "src/"
         },
         "files": [
             "src/helpers.php"
         ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Longestdrive\\LaravelUserSettings\\ServiceProvider"
+            ],
+            "aliases": {
+                "Debugbar": "Longestdrive\\LaravelUserSettings\\Facade"
+            }
+        }
     },
     "minimum-stability": "stable"
 }

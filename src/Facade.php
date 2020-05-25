@@ -1,6 +1,6 @@
 <?php
 
-namespace Grimthorr\LaravelUserSettings;
+namespace Longestdrive\LaravelUserSettings;
 
 
 class Facade extends \Illuminate\Support\Facades\Facade {
