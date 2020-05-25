@@ -15,7 +15,7 @@ Simple user settings facade for Laravel 5. Settings are stored as JSON in a sing
   ),
   ```
 
-3. Add `'Setting' => 'Grimthorr\LaravelUserSettings\Facade'` to `aliases` in `config/app.php`.
+3. Add `'Setting' => 'Longestdrive\LaravelUserSettings\Facade'` to `aliases` in `config/app.php`.
 
   ```php
   'aliases' => array(
