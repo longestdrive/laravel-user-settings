@@ -1,6 +1,6 @@
 {
     "name": "longestdrive/laravel-user-settings",
-    "description": "Simple user settings facade for Laravel 6. Forked from Grimthorr/laravel-user-settings",
+    "description": "Simple user settings facade for Laravel 7. Forked from Grimthorr/laravel-user-settings",
     "homepage": "https://github.com/longestdrive/laravel-user-settings",
     "license": "MIT",
     "authors": [
