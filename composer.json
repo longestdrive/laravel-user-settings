@@ -15,11 +15,11 @@
             "type": "package",
             "package": {
                 "name": "longestdrive/laravel-user-settings",
-                "version": "6.0.1",
+                "version": "7.0.1",
                 "source": {
                     "url": "git://github.com/longestdrive/laravel-user-settings.git",
                     "type": "git",
-                    "reference": "6.0.1"
+                    "reference": "7.0.1"
                 },
                 "autoload": {
                     "psr-0" : {
@@ -32,9 +32,9 @@
     "require": {
         "php": ">=7.2.0",
         "ext-json": "*",
-        "illuminate/support": "6.*",
-        "illuminate/config": "6.*",
-        "illuminate/database": "6.*"
+        "illuminate/support": "7.*",
+        "illuminate/config": "7.*",
+        "illuminate/database": "7.*"
     },
     "autoload": {
         "psr-4": {
