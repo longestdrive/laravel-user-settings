@@ -1,6 +1,6 @@
 {
     "name": "longestdrive/laravel-user-settings",
-    "description": "Simple user settings facade for Laravel 7. Forked from Grimthorr/laravel-user-settings",
+    "description": "Simple user settings facade for Laravel 9. Forked from Grimthorr/laravel-user-settings",
     "homepage": "https://github.com/longestdrive/laravel-user-settings",
     "license": "MIT",
     "authors": [
@@ -15,11 +15,11 @@
             "type": "package",
             "package": {
                 "name": "longestdrive/laravel-user-settings",
-                "version": "8.0.1",
+                "version": "9.0.1",
                 "source": {
                     "url": "git://github.com/longestdrive/laravel-user-settings.git",
                     "type": "git",
-                    "reference": "8.0.1"
+                    "reference": "9.0.1"
                 },
                 "autoload": {
                     "psr-0" : {
@@ -30,11 +30,11 @@
         }
     ],
     "require": {
-        "php": ">=7.2.0",
+        "php": ">=8.1.0",
         "ext-json": "*",
-        "illuminate/support": "8.*",
-        "illuminate/config": "8.*",
-        "illuminate/database": "8.*"
+        "illuminate/support": "9.*",
+        "illuminate/config": "9.*",
+        "illuminate/database": "9.*"
     },
     "autoload": {
         "psr-4": {
