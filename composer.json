@@ -32,9 +32,9 @@
     "require": {
         "php": ">=8.2.0",
         "ext-json": "*",
-        "illuminate/support": "10.*|11.*",
-        "illuminate/config": "10.*|11.*",
-        "illuminate/database": "10.*|11.*"
+        "illuminate/support": "11.*",
+        "illuminate/config": "11.*",
+        "illuminate/database": "11.*"
     },
     "autoload": {
         "psr-4": {
