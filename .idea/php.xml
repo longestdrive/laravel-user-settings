@@ -40,8 +40,8 @@
   </component>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter id="96522b85-6209-4863-a860-66e30084ea65" name="vagrant@127.0.0.1:2222 password" home="sshConfig://DATA" debugger_id="php.debugger.XDebug">
-        <remote_data INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="/home/vagrant/.phpstorm_helpers" INITIALIZED="false" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" SSH_CONFIG_ID="3ddca06e-603c-4af9-b7c8-90943d3e86f3" SSH_CONFIG_NAME="vagrant@127.0.0.1:2222 password" SSH_CREDENTIALS_ID="sshConfig://vagrant@127.0.0.1:2222 password" />
+      <interpreter id="96522b85-6209-4863-a860-66e30084ea65" name="vagrant@127.0.0.1:2222 password" home="sshConfig://DATA" auto="false" debugger_id="php.debugger.XDebug">
+        <remote_data INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="/home/vagrant/.phpstorm_helpers" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" SSH_CONFIG_ID="3ddca06e-603c-4af9-b7c8-90943d3e86f3" SSH_CONFIG_NAME="vagrant@127.0.0.1:2222 password" SSH_CREDENTIALS_ID="sshConfig://vagrant@127.0.0.1:2222 password" />
       </interpreter>
     </interpreters>
   </component>
@@ -138,7 +138,7 @@
       </interpreter>
     </phpInfoCache>
   </component>
-  <component name="PhpProjectSharedConfiguration" php_language_level="8.1" />
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.2" />
   <component name="PhpStanOptionsConfiguration">
     <option name="transferred" value="true" />
   </component>
