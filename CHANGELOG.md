@@ -3,6 +3,12 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
 
+## [12.0.1] - 2026-11-02
+##### Changed
+- Require Laravel 12 components (`illuminate/support`, `illuminate/config`, and `illuminate/database`); PHP 8.3 or later remains required.
+- Update the package description to reflect Laravel 12 support.
+- Remove the self-referencing Composer repository definition so package versions are derived from Git tags.
+
 ## [2.1.2] - 2016-11-08 14:31 GMT
 ##### Changed
 - Store settings as `text` rather than `json` in the default migration (merges [#17], [#18], [#19] and fixes [#16]).
@@ -68,6 +74,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 [#18]: https://github.com/Grimthorr/laravel-user-settings/pull/14
 [#19]: https://github.com/Grimthorr/laravel-user-settings/pull/14
 
+[12.0.1]: https://github.com/longestdrive/laravel-user-settings/compare/11.0.1...12.0.1
 [2.1.2]: https://github.com/Grimthorr/laravel-user-settings/compare/2.1.1...2.1.2
 [2.1.1]: https://github.com/Grimthorr/laravel-user-settings/compare/2.1.0...2.1.1
 [2.1.0]: https://github.com/Grimthorr/laravel-user-settings/compare/2.0.3...2.1.0

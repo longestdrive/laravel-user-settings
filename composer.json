@@ -1,6 +1,6 @@
 {
     "name": "longestdrive/laravel-user-settings",
-    "description": "Simple user settings facade for Laravel 11. Forked from Grimthorr/laravel-user-settings",
+    "description": "Simple user settings facade for Laravel 12. Forked from Grimthorr/laravel-user-settings",
     "homepage": "https://github.com/longestdrive/laravel-user-settings",
     "license": "MIT",
     "authors": [
@@ -8,25 +8,6 @@
             "name": "Longestdrive",
             "email": "ray@raycraneweb.co.uk",
             "homepage": "http://raycraneweb.co.uk"
-        }
-    ],
-    "repositories": [
-        {
-            "type": "package",
-            "package": {
-                "name": "longestdrive/laravel-user-settings",
-                "version": "11.0.1",
-                "source": {
-                    "url": "git://github.com/longestdrive/laravel-user-settings.git",
-                    "type": "git",
-                    "reference": "12.0.1"
-                },
-                "autoload": {
-                    "psr-0" : {
-                        "Longestdrive\\DangerZone" : "src"
-                    }
-                }
-            }
         }
     ],
     "require": {
