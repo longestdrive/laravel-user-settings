@@ -3,6 +3,11 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
 
+## [13.0.0] - 2026-11-03
+##### Changed
+- Require Laravel 13 components (`illuminate/support`, `illuminate/config`, and `illuminate/database`); PHP 8.3 or later remains required.
+- Update the package description and README to reflect Laravel 13 support.
+
 ## [12.0.1] - 2026-11-02
 ##### Changed
 - Require Laravel 12 components (`illuminate/support`, `illuminate/config`, and `illuminate/database`); PHP 8.3 or later remains required.
